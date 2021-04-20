@@ -378,6 +378,7 @@ CFReadStreamRef HTTP_Stream::createReadStream(CFURLRef url)
         goto out;
     }
     
+    
     CFReadStreamSetProperty(readStream,
                             kCFStreamNetworkServiceType,
                             kCFStreamNetworkServiceTypeBackground);

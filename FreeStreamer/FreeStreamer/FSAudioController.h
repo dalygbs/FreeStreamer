@@ -142,6 +142,14 @@
  */
 - (void)removeItemAtIndex:(NSUInteger)index;
 
+
+/**
+ * Removes all playlist item.
+ *
+ */
+- (void)removeAllItem;
+
+
 /**
  * Stops the stream playback.
  */

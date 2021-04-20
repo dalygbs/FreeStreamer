@@ -691,6 +691,14 @@
     }
 }
 
+- (void)removeAllItem {
+    
+    [self.playlistItems removeAllObjects];
+    [_streams removeAllObjects];
+    self.currentPlaylistItemIndex = 0;
+    
+}
+
 - (void)stop
 {
     if ([_streams count] > 0) {
