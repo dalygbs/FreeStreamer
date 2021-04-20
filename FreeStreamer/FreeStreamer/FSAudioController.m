@@ -548,6 +548,11 @@
     return [self.playlistItems count];
 }
 
+- (NSUInteger)currentIndex
+{
+    return self.currentPlaylistItemIndex;
+}
+
 - (void)addItem:(FSPlaylistItem *)item
 {
     if (!item) {

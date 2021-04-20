@@ -54,6 +54,11 @@
 }
 
 /**
+ * Get current item.
+ */
+- (NSUInteger)currentIndex;
+
+/**
  * Initializes the audio stream with an URL.
  *
  * @param url The URL from which the stream data is retrieved.
